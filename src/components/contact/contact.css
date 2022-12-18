@@ -1,0 +1,50 @@
+.container.contact__container {
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  background-color: var(--color-black);
+  width: 100%;
+  padding: 40px 70px;
+}
+
+.contact__container .title {
+  padding-top: 0;
+}
+
+.contact__options h5 {
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.contact__icon {
+  font-size: 1.1rem;
+  padding: 2rem 1rem;
+}
+
+small {
+  line-height: 0;
+}
+
+.btn__mails {
+  margin-top: 8px;
+}
+
+.contact__socials {
+  margin-top: 6px;
+}
+
+/* media queries (tablet) */
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* media queries (mobile) */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(container-width-sm);
+  }
+}

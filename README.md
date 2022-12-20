@@ -12,7 +12,7 @@
 
 ## languages
 
-- HTML, CSS, React JS, Node JS
+- HTML, CSS, React JS
 
 # What I learned
 
